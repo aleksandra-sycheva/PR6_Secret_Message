@@ -1,10 +1,12 @@
 <resources>
-    <string name="app_name">Secret Message</string>
-    <string name="welcome_text">Welcome to the Secret Message app!
- Use this app to encrypt a secret message.
- Click on the Start button to begin.</string>
-    <string name="start">Start</string>
-    <string name="message_hint">Please enter your secret message</string>
-    <string name="next">Next</string>
-    <string name="encrypt_text">Here is your encrypted message:</string>
+    <string name="app_name">Секретное сообщение</string>
+    <string name="welcome_text">Добро пожаловать в приложение «Секретное сообщение»!
+     Используйте это приложение, чтобы зашифровать секретное сообщение.
+     Нажмите кнопку «Старт», чтобы начать.</string>
+    <string name="start">Старт</string>
+    <string name="message_hint">Пожалуйста, введите секретное сообщение</string>
+    <string name="next">Далее</string>
+    <string name="encrypt_text">Вот ваше зашифрованное сообщение:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Привет, пустой фрагмент</string>
 </resources>
