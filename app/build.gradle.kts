@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.navigation.safeargs.kotlin)
 }
 
 android {
@@ -45,6 +46,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    val nav_version = "2.3.5"
-    implementation ("androidx.navigation:navigation-fragment-ktx:$nav_version")
+    implementation (libs.androidx.navigation.fragment.ktx)
 }
