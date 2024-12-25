@@ -23,6 +23,7 @@
             app:destination="@id/encryptFragment"
             app:popUpTo="@id/welcomeFragment"/>
     </fragment>
+
     <fragment
         android:id="@+id/encryptFragment"
         android:name="com.hfad.secretmessage.EncryptFragment"
